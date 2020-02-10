@@ -9,6 +9,8 @@ pylint = "*"
 [packages]
 requests = "*"
 psycopg2-binary = "*"
+scrapy = "*"
+selenium = "*"
 
 [requires]
 python_version = "3.8"
