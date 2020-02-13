@@ -1,0 +1,1 @@
+{'url': 'https://disclosure.edinet-fsa.go.jp/api/v1/documents.json?date=2020-02-12&type=2', 'method': 'GET', 'status': 200, 'response_url': 'https://disclosure.edinet-fsa.go.jp/api/v1/documents.json?date=2020-02-12&type=2', 'timestamp': 1581573347.5377228}
