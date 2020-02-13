@@ -1,4 +1,6 @@
 # -*- coding: utf-8 -*-
+# api から xbrl　を抽出する
+
 
 import requests
 import json
@@ -55,6 +57,6 @@ print(len(dl_fnames))
 
 for i in dl_fnames:
   download_file(i, './DL/')
-  print('file: '+i+" is downloaded!")
+  print('file: '+i+" has been downloaded!")
   unzip_xbrl(i, './DL/', './out/')
   print('file: '+i+" is processed!({}/{})".format(dl_fnames.index(i)+1, len(dl_fnames)))
