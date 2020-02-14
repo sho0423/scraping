@@ -11,6 +11,8 @@ import scrapy
 class KabItem(scrapy.Item):
   name = scrapy.Field()
   ticker = scrapy.Field()
+  periodStart = scrapy.Field()
+  periodEnd = scrapy.Field()
   year = scrapy.Field()
   quarter = scrapy.Field()
   accouting_standard = scrapy.Field()
